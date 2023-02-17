@@ -1,9 +1,9 @@
 {
   "name": "imagetovideo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "process image to video slider",
-  "main": "lib/index.js",
-  "types": "lib/.index.d.ts",
+  "main": "./lib/index.js",
+  "typings": "./lib/.index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"
