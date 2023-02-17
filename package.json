@@ -1,0 +1,25 @@
+{
+  "name": "imagetovideo",
+  "version": "1.0.0",
+  "description": "process image to video slider",
+  "main": "lib/index.js",
+  "types": "lib/.index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pardipbhatti8791/imagetovideo.git"
+  },
+  "author": "Pardip Bhatti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pardipbhatti8791/imagetovideo/issues"
+  },
+  "homepage": "https://github.com/pardipbhatti8791/imagetovideo#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "files": ["lib/**/*"]
+}
